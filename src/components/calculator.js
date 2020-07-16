@@ -26,29 +26,29 @@ class Calculator extends Component {
                     <div className="button-row">
                         <Button label={'C'} handleClick={this.handleClick}/>
                         <Button label={'CE'} handleClick={this.handleClick}/>
-                        <Button label={'.'} handleClick={this.handleClick}/>
                         <Button label={'/'} handleClick={this.handleClick}/>
+                        <Button label={'*'} handleClick={this.handleClick}/>
                     </div>
                     <div className="button-row">
                         <Button label={'7'} handleClick={this.handleClick}/>
                         <Button label={'8'} handleClick={this.handleClick}/>
                         <Button label={'9'} handleClick={this.handleClick}/>
-                        <Button label={'*'} handleClick={this.handleClick}/>
+                        <Button label={'-'} handleClick={this.handleClick}/>
                     </div>
                     <div className="button-row">
                         <Button label={'4'} handleClick={this.handleClick}/>
                         <Button label={'5'} handleClick={this.handleClick}/>
                         <Button label={'6'} handleClick={this.handleClick}/>
-                        <Button label={'-'} handleClick={this.handleClick}/>
+                        <Button label={'+'} handleClick={this.handleClick}/>
                     </div>
                     <div className="button-row">
                         <Button label={'1'} handleClick={this.handleClick}/>
                         <Button label={'2'} handleClick={this.handleClick}/>
                         <Button label={'3'} handleClick={this.handleClick}/>
-                        <Button label={'+'} handleClick={this.handleClick}/>
+                        <Button label={'.'} handleClick={this.handleClick}/>
                     </div>
-                    <div>
-                        <Button className="button0" label={'0'} handleClick={this.handleClick}/>
+                    <div className="button-row">
+                        <Button label={'0'} handleClick={this.handleClick}/>
                         <Button label={'='} handleClick={this.handleClick}/>
                     </div>
                 </div>
