@@ -75,3 +75,7 @@ input[type='button']:active{
 	text-align: right;
 	margin-bottom: 1rem;
 }
+
+body {
+	background-color: #e8fee7;
+}
